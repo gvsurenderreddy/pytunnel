@@ -6,6 +6,8 @@ Use the Linux TUN driver with arbitrary tunnel formats.
  * tcp
  * tcp_base64
  * tcp_xor
+ * udp
+ * http
 
 # Adding new tunnels
 
