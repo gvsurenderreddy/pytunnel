@@ -1,12 +1,14 @@
 import tcp
 import tcp_base64
 import tcp_xor
+import http
 import stdio
 
 types = {
         "tcp":tcp,
         "tcp_base64":tcp_base64,
         "tcp_xor":tcp_xor,
+        "http":http,
         "stdio":stdio,
         }
 
