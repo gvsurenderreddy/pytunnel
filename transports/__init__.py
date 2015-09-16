@@ -1,6 +1,7 @@
 import tcp
 import tcp_base64
 import tcp_xor
+import udp
 import http
 import stdio
 
@@ -8,6 +9,7 @@ types = {
         "tcp":tcp,
         "tcp_base64":tcp_base64,
         "tcp_xor":tcp_xor,
+        "udp":tcp,
         "http":http,
         "stdio":stdio,
         }
